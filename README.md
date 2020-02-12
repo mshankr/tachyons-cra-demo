@@ -7,4 +7,4 @@ It uses [tachyons](https://tachyons.io/), a functional CSS helper. It is an amaz
 
 But I did not want to use Material UI because the package is heavy and the app drawer seems hard to configure.
 
-The gallery of music artists is a [vinyl gallery component provided by tachyons](https://tachyons.io/components/collections/vinyl/index.html).
+The gallery of music artists is a [vinyl gallery component](https://tachyons.io/components/collections/vinyl/index.html) provided by tachyons.
