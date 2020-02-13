@@ -1,4 +1,4 @@
-import React, { useState, Fragment } from 'react';
+import React, { useState } from 'react';
 import {
   IoMdMore,
   IoIosAnalytics,
@@ -6,6 +6,7 @@ import {
   IoIosAlbums,
   IoIosBug
 } from 'react-icons/io';
+import { Link } from 'react-router-dom';
 import './AppDrawer.css';
 
 export default function AppDrawer () {
@@ -19,18 +20,21 @@ export default function AppDrawer () {
 
   return (
     <div>
-      <header className="bg-washed-green ">
-        <IoMdMore className={`h2-ns w2-ns h1 w1 pointer tl v-mid app-drawer ${!open && 'closed'}`}
-          aria-label="open drawer"
-          onClick={handleDrawerToggle}
-          />
-        <h1 className="dib v-mid sans-serif">Spotify</h1>
-      </header>
-      <nav className="dib vh-100 bg-washed-green">
+      <nav className="vh-100 bg-washed-green mr5">
         <div className="flex flex-column">
-          <IoIosAnalytics className={styleAppDrawerIcons} aria-label="analytics"/>
-          <IoIosArchive className={styleAppDrawerIcons} aria-label="archive"/>
-          <IoIosAlbums className={styleAppDrawerIcons} aria-label="albums"/>
+          <IoMdMore className={`h2-ns w2-ns h1 w1 ${styleAppDrawerIcons}`}
+            aria-label="open drawer"
+            onClick={handleDrawerToggle}
+            />
+          <Link to='/'>
+            <IoIosAnalytics className={styleAppDrawerIcons} aria-label="analytics"/>
+          </Link>
+          <Link to='/archive'>
+            <IoIosArchive className={styleAppDrawerIcons} aria-label="archive"/>
+          </Link>
+          <Link to='/albums'>
+            <IoIosAlbums className={styleAppDrawerIcons} aria-label="albums"/>
+          </Link>
           <IoIosBug className={styleAppDrawerIcons} aria-label="report bugs"/>
         </div>
       </nav>
