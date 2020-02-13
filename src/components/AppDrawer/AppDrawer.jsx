@@ -26,13 +26,13 @@ export default function AppDrawer () {
             aria-label="open drawer"
             onClick={handleDrawerToggle}
             />
-          <NavLink exact to='/' activeClassName="bg-light-yellow" className={styleNavLink}>
+          <NavLink exact to='/' activeClassName="bg-green" className={styleNavLink}>
             <IoIosAnalytics className={styleAppDrawerIcon} aria-label="analytics"/>
           </NavLink>
-          <NavLink to='/archive' activeClassName="bg-light-yellow" className={styleNavLink}>
+          <NavLink to='/archive' activeClassName="bg-green" className={styleNavLink}>
             <IoIosArchive className={styleAppDrawerIcon} aria-label="archive"/>
           </NavLink>
-          <NavLink to='/albums' activeClassName="bg-light-yellow" className={styleNavLink}>
+          <NavLink to='/albums' activeClassName="bg-green" className={styleNavLink}>
             <IoIosAlbums className={styleAppDrawerIcon} aria-label="albums"/>
           </NavLink>
           <IoIosBug className={styleAppDrawerIcon} aria-label="report bugs"/>
