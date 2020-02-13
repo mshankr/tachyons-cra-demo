@@ -58,7 +58,7 @@ const artists = [
 ]
 
 export default () => (
-  <article class="cf">
+  <article class="mw7 vh-100">
 
   {artists.map((item, i) =>
     <div class={item.divClass}>
