@@ -9,6 +9,7 @@ But I did not want to use Material UI because the package is heavy and the app d
 
 The gallery of music artists is a [vinyl gallery component](https://tachyons.io/components/collections/vinyl/index.html) provided by tachyons.
 
+
 Reflections
 -------------------
 
