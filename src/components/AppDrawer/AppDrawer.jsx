@@ -7,7 +7,6 @@ import {
   IoIosBug
 } from 'react-icons/io';
 import { NavLink } from 'react-router-dom';
-import './AppDrawer.css';
 
 export default function AppDrawer () {
 
