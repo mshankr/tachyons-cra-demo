@@ -1,7 +1,7 @@
 import React from 'react';
 
 export default () => (
-  <main classNameName="black-80">
+  <main className="black-80">
   <form className="measure center pv2 pv3-ns">
     <fieldset id="sign_up" className="ba b--transparent ph0 mh0">
       <legend className="f4 fw6 ph0 mh0">Sign In</legend>

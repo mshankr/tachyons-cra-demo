@@ -22,7 +22,7 @@ export default function AppDrawer () {
     <div>
       <nav className="vh-100 bg-washed-green mr5">
         <div className="flex flex-column">
-          <IoMdMore className={`h2-ns w2-ns h1 w1 ${styleAppDrawerIcon}`}
+          <IoMdMore className={`h2-ns w2-ns h1 w1 pointer ${styleAppDrawerIcon}`}
             aria-label="open drawer"
             onClick={handleDrawerToggle}
             />
