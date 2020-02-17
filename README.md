@@ -25,3 +25,13 @@ I realised there's a problem with state management that I have not considered. I
 I realised it's just a matter of figuring out the app url routing (react-router-dom)!
 
 And in future if I need a global state, I will see React Context API first.
+
+-----------------------------
+
+I started this experiment wanting to code my own components. I realised there's no easy fix solution... App drawer is successful and has been a good exercise of knowing my CSS widths and options. Even for MUI app drawer they also use the state and seems complicated code. Currently my app drawer can't suppress the y-scrolling. And the display structure breaks on some components, some width problem I have yet investigate properly. A lot of trial and error.
+
+Yet if you used someone else's code, you'd be less inclined to modify it, even if you don't like the looks. And debugging would be a heck of pain.
+
+Do I really want to HTML code out all my components? Maybe. But changing the UI styling, would be going through the HTML code line-by-line.
+
+If you want a central styling place, welcome to the 1000 lines CSS code. I guess the best answer is to have strict CSS rules in place (e.g. BEM) so people don't name rubbish confusing CSS rules.

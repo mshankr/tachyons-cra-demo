@@ -1,9 +1,23 @@
 .app-drawer {
-  padding: 1rem;
-  padding-left: 8rem;
+  margin-left: 0rem;
+  transition: 450ms cubic-bezier(0.4, 0.0, 0.2, 1);
+  overflow-x: hidden;
+  overflow-y: hidden;
+}
+
+.app-drawer--closed {
+  margin-left: -8.5rem;
+}
+
+/* .label {
+  display: "inline";
   transition: 450ms cubic-bezier(0.4, 0.0, 0.2, 1);
 }
 
-.closed {
-  padding: 1rem;
+.label--closed {
+  display: "none";
+} */
+
+.invisible {
+  visibility: hidden;
 }
